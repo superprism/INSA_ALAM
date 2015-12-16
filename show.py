@@ -13,7 +13,8 @@ class show :
 
   def draw_mat(self, matrices) :
 
-
+    plt.clf()
+    
     self.Nfig = len(matrices)
 
     plt.figure(figsize=(20,10))
